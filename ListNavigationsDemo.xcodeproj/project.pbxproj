@@ -11,6 +11,7 @@
 		92BCA3952A0A79E400360E29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BCA3942A0A79E400360E29 /* ContentView.swift */; };
 		92BCA3972A0A79E700360E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BCA3962A0A79E700360E29 /* Assets.xcassets */; };
 		92BCA39A2A0A79E700360E29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BCA3992A0A79E700360E29 /* Preview Assets.xcassets */; };
+		92BCA3A22A0A7BBD00360E29 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BCA3A12A0A7BBD00360E29 /* TeamCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		92BCA3942A0A79E400360E29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92BCA3962A0A79E700360E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92BCA3992A0A79E700360E29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92BCA3A12A0A7BBD00360E29 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		92BCA3912A0A79E400360E29 /* ListNavigationsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				92BCA3A02A0A7BAA00360E29 /* Cell */,
 				92BCA3922A0A79E400360E29 /* ListNavigationsDemoApp.swift */,
 				92BCA3942A0A79E400360E29 /* ContentView.swift */,
 				92BCA3962A0A79E700360E29 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				92BCA3992A0A79E700360E29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92BCA3A02A0A7BAA00360E29 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92BCA3A12A0A7BBD00360E29 /* TeamCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				92BCA3952A0A79E400360E29 /* ContentView.swift in Sources */,
 				92BCA3932A0A79E400360E29 /* ListNavigationsDemoApp.swift in Sources */,
+				92BCA3A22A0A7BBD00360E29 /* TeamCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
