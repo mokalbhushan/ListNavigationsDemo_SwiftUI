@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct TeamCell:View{
+    let team:IPLTeam
     var body: some View{
         HStack{
-            Image("MI")
+            Image(team.logo)
                 .resizable()
                 .clipShape(Circle())
                 .frame(width: 60,height: 60)
-                .overlay(Circle().stroke(Color.blue,lineWidth: 2))
+                .overlay(Circle().stroke(team.color,lineWidth: 2))
             
             VStack(alignment: .leading){
-                Text("Mumbai Indians")
+                Text(team.name)
                     .fontWeight(.heavy)
-                Text("Rohit Sharma")
+                Text(team.captainName)
             }
             Spacer()
             Image(systemName: "chevron.right")

@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    var teams:[IPLTeam] = []
     var body: some View {
         VStack {
             Text("IPL Teams 2023")
                 .fontWeight(.heavy)
-            List(0..<10){ _ in
-                TeamCell()
+            List(teams){ teams in
+                TeamCell(team: teams)
             }
         }
     }
@@ -21,6 +22,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(teams: iplTeams)
     }
 }
