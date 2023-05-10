@@ -22,8 +22,8 @@ struct TeamCell:View{
                     .fontWeight(.heavy)
                 Text(team.captainName)
             }
-            Spacer()
-            Image(systemName: "chevron.right")
+           // Spacer()
+           // Image(systemName: "chevron.right")
             
         }
     }

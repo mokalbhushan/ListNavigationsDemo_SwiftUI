@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925BE9BE2A0B78CD00B1CBD2 /* TeamDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BE9BD2A0B78CD00B1CBD2 /* TeamDetails.swift */; };
 		92BCA3932A0A79E400360E29 /* ListNavigationsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BCA3922A0A79E400360E29 /* ListNavigationsDemoApp.swift */; };
 		92BCA3952A0A79E400360E29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BCA3942A0A79E400360E29 /* ContentView.swift */; };
 		92BCA3972A0A79E700360E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BCA3962A0A79E700360E29 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		925BE9BD2A0B78CD00B1CBD2 /* TeamDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetails.swift; sourceTree = "<group>"; };
 		92BCA38F2A0A79E400360E29 /* ListNavigationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavigationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BCA3922A0A79E400360E29 /* ListNavigationsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationsDemoApp.swift; sourceTree = "<group>"; };
 		92BCA3942A0A79E400360E29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				92BCA3A32A0A7C9C00360E29 /* IPLTeams.swift */,
 				92BCA3A02A0A7BAA00360E29 /* Cell */,
 				92BCA3922A0A79E400360E29 /* ListNavigationsDemoApp.swift */,
+				925BE9BD2A0B78CD00B1CBD2 /* TeamDetails.swift */,
 				92BCA3942A0A79E400360E29 /* ContentView.swift */,
 				92BCA3962A0A79E700360E29 /* Assets.xcassets */,
 				92BCA3982A0A79E700360E29 /* Preview Content */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925BE9BE2A0B78CD00B1CBD2 /* TeamDetails.swift in Sources */,
 				92BCA3A42A0A7C9C00360E29 /* IPLTeams.swift in Sources */,
 				92BCA3952A0A79E400360E29 /* ContentView.swift in Sources */,
 				92BCA3932A0A79E400360E29 /* ListNavigationsDemoApp.swift in Sources */,

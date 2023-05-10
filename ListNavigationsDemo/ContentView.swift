@@ -8,20 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var teams:[IPLTeam] = []
+    var teams:[IPLTeam] = iplTeams
     var body: some View {
-        VStack {
-            Text("IPL Teams 2023")
-                .fontWeight(.heavy)
-            List(teams){ teams in
-                TeamCell(team: teams)
+        NavigationView{
+            VStack {
+                List(teams){ teams in
+                        NavigationLink(destination: TeamDetail(team: teams)){
+                        TeamCell(team: teams)
+                    }
+                }
             }
+            .navigationTitle("IPL Teams 2023")
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(teams: iplTeams)
+        ContentView()
     }
 }
