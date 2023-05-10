@@ -19,6 +19,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("IPL Teams 2023")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct TeamDetail:View{
     let team:IPLTeam
+    
+    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     var body: some View{
         VStack(spacing: 20){
             Image(team.logo)
@@ -23,7 +25,18 @@ struct TeamDetail:View{
                 Text(team.captainName)
                     .font(.system(size: 20))
             }
-        }
+        }.navigationBarTitle(team.name, displayMode: .inline)
+            .navigationBarBackButtonHidden(true)
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading){
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }, label: {
+                        Image(systemName: "chevron.left")
+                            .foregroundColor(Color.black)
+                    })
+                }
+            })
     }
 }
 
